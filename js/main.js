@@ -7,7 +7,7 @@
 var latlong = '41.740681,-71.308609';
 
 // Your unique API key. Place the long string of characters between the quotes.
-var apikey = '';
+var apikey = '28e5b84ffcbfa376c36612e5c095939b';
 
 // Access the DarkSky API for weather data. DO NOT EDIT THIS LINE.
 $.getJSON('https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/'+apikey+'/' + latlong)
@@ -72,6 +72,15 @@ function displayData(forecast){
 
 	// For example, if I have an element <div class="today"> in my main content area
 	// I can add data from the "Daily" array like this
+
+	$('.day1 h1').html(Math.round(forecast.daily.data[0].temperature));
+	$('.day1 p').html(displayIcon(forecast.daily.data[0].icon));
+	$('.high h4').html(Math.round(forecast.daily.data[0].temperatureHigh));
+    $('.low h4').html(Math.round(forecast.daily.data[0].temperatureLow));
+    $('.rise h4').html(timeConverter(forecast.daily.data[0].sunriseTime));
+    $('.set h4').html(timeConverter(forecast.daily.data[0].sunsetTime));
+    $('.wind h4').html(Math.round(forecast.daily.data[0].windSpeed));
+    $('.uv h4').html(Math.round(forecast.daily.data[0].uvIndex));
 
 	// $('.today').html(forecast.daily.data[0].temperatureHigh);
 	
