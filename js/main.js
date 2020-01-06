@@ -73,7 +73,7 @@ function displayData(forecast){
 	// For example, if I have an element <div class="today"> in my main content area
 	// I can add data from the "Daily" array like this
 
-	$('.day1 h1').html(Math.round(forecast.daily.data[0].temperature));
+	$('.day1 h2').html(Math.round(forecast.daily.data[0].temperature));
 	$('.day1 p').html(displayIcon(forecast.daily.data[0].icon));
 	$('.day1 .high h4').html(Math.round(forecast.daily.data[0].temperatureHigh));
     $('.day1 .low h4').html(Math.round(forecast.daily.data[0].temperatureLow));
@@ -82,7 +82,7 @@ function displayData(forecast){
     $('.day1 .wind h4').html(Math.round(forecast.daily.data[0].windSpeed));
     $('.day1 .uv h4').html(Math.round(forecast.daily.data[0].uvIndex));
 
-    $('.day2 h1').html(Math.round(forecast.daily.data[1].temperature));
+    $('.day2 h2').html(Math.round(forecast.daily.data[1].temperature));
 	$('.day2 p').html(displayIcon(forecast.daily.data[1].icon));
 	$('.day2 .high h4').html(Math.round(forecast.daily.data[1].temperatureHigh));
     $('.day2 .low h4').html(Math.round(forecast.daily.data[1].temperatureLow));
@@ -91,7 +91,7 @@ function displayData(forecast){
     $('.day2 .wind h4').html(Math.round(forecast.daily.data[1].windSpeed));
     $('.day2 .uv h4').html(Math.round(forecast.daily.data[1].uvIndex));
 
-    $('.day3 h1').html(Math.round(forecast.daily.data[2].temperature));
+    $('.day3 h2').html(Math.round(forecast.daily.data[2].temperature));
 	$('.day3 p').html(displayIcon(forecast.daily.data[2].icon));
 	$('.day3 .high h4').html(Math.round(forecast.daily.data[2].temperatureHigh));
     $('.day3 .low h4').html(Math.round(forecast.daily.data[2].temperatureLow));
@@ -100,7 +100,7 @@ function displayData(forecast){
     $('.day3 .wind h4').html(Math.round(forecast.daily.data[2].windSpeed));
     $('.day3 .uv h4').html(Math.round(forecast.daily.data[2].uvIndex));
 
-    $('.day4 h1').html(Math.round(forecast.daily.data[3].temperature));
+    $('.day4 h2').html(Math.round(forecast.daily.data[3].temperature));
 	$('.day4 p').html(displayIcon(forecast.daily.data[3].icon));
 	$('.day4 .high h4').html(Math.round(forecast.daily.data[3].temperatureHigh));
     $('.day4 .low h4').html(Math.round(forecast.daily.data[3].temperatureLow));
@@ -109,7 +109,7 @@ function displayData(forecast){
     $('.day4 .wind h4').html(Math.round(forecast.daily.data[3].windSpeed));
     $('.day4 .uv h4').html(Math.round(forecast.daily.data[3].uvIndex));
 
-    $('.day5 h1').html(Math.round(forecast.daily.data[4].temperature));
+    $('.day5 h2').html(Math.round(forecast.daily.data[4].temperature));
 	$('.day5 p').html(displayIcon(forecast.daily.data[4].icon));
 	$('.day5 .high h4').html(Math.round(forecast.daily.data[4].temperatureHigh));
     $('.day5 .low h4').html(Math.round(forecast.daily.data[4].temperatureLow));
@@ -118,7 +118,7 @@ function displayData(forecast){
     $('.day5 .wind h4').html(Math.round(forecast.daily.data[4].windSpeed));
     $('.day5 .uv h4').html(Math.round(forecast.daily.data[4].uvIndex));
 
-    $('.day6 h1').html(Math.round(forecast.daily.data[5].temperature));
+    $('.day6 h2').html(Math.round(forecast.daily.data[5].temperature));
 	$('.day6 p').html(displayIcon(forecast.daily.data[5].icon));
 	$('.day6 .high h4').html(Math.round(forecast.daily.data[5].temperatureHigh));
     $('.day6 .low h4').html(Math.round(forecast.daily.data[5].temperatureLow));
@@ -127,7 +127,7 @@ function displayData(forecast){
     $('.day6 .wind h4').html(Math.round(forecast.daily.data[5].windSpeed));
     $('.day6 .uv h4').html(Math.round(forecast.daily.data[5].uvIndex));
 
-    $('.day7 h1').html(Math.round(forecast.daily.data[6].temperature));
+    $('.day7 h2').html(Math.round(forecast.daily.data[6].temperature));
 	$('.day7 p').html(displayIcon(forecast.daily.data[6].icon));
 	$('.day7 .high h4').html(Math.round(forecast.daily.data[6].temperatureHigh));
     $('.day7 .low h4').html(Math.round(forecast.daily.data[6].temperatureLow));
