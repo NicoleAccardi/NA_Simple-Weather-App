@@ -4,7 +4,7 @@
 
 // Replace the lat/long below with the lat/long for your desired location.
 // Get your city lat/long using https://www.latlong.net/
-var latlong = '41.740681,-71.308609';
+var latlong = '41.3132,71.8514';
 
 // Your unique API key. Place the long string of characters between the quotes.
 var apikey = '28e5b84ffcbfa376c36612e5c095939b';
@@ -75,12 +75,31 @@ function displayData(forecast){
 
 	$('.day1 h1').html(Math.round(forecast.daily.data[0].temperature));
 	$('.day1 p').html(displayIcon(forecast.daily.data[0].icon));
-	$('.high h4').html(Math.round(forecast.daily.data[0].temperatureHigh));
-    $('.low h4').html(Math.round(forecast.daily.data[0].temperatureLow));
-    $('.rise h4').html(timeConverter(forecast.daily.data[0].sunriseTime));
-    $('.set h4').html(timeConverter(forecast.daily.data[0].sunsetTime));
-    $('.wind h4').html(Math.round(forecast.daily.data[0].windSpeed));
-    $('.uv h4').html(Math.round(forecast.daily.data[0].uvIndex));
+	$('.day1 .high h4').html(Math.round(forecast.daily.data[0].temperatureHigh));
+    $('.day1 .low h4').html(Math.round(forecast.daily.data[0].temperatureLow));
+    $('.day1 .rise h4').html(timeConverter(forecast.daily.data[0].sunriseTime));
+    $('.day1 .set h4').html(timeConverter(forecast.daily.data[0].sunsetTime));
+    $('.day1 .wind h4').html(Math.round(forecast.daily.data[0].windSpeed));
+    $('.day1 .uv h4').html(Math.round(forecast.daily.data[0].uvIndex));
+
+    $('.day2 h1').html(Math.round(forecast.daily.data[1].temperature));
+	$('.day2 p').html(displayIcon(forecast.daily.data[1].icon));
+	$('.day2 .high h4').html(Math.round(forecast.daily.data[1].temperatureHigh));
+    $('.day2 .low h4').html(Math.round(forecast.daily.data[1].temperatureLow));
+    $('.day2 .rise h4').html(timeConverter(forecast.daily.data[1].sunriseTime));
+    $('.day2 .set h4').html(timeConverter(forecast.daily.data[1].sunsetTime));
+    $('.day2 .wind h4').html(Math.round(forecast.daily.data[1].windSpeed));
+    $('.day2 .uv h4').html(Math.round(forecast.daily.data[1].uvIndex));
+
+    $('.day3 h1').html(Math.round(forecast.daily.data[2].temperature));
+	$('.day3 p').html(displayIcon(forecast.daily.data[2].icon));
+	$('.day3 .high h4').html(Math.round(forecast.daily.data[2].temperatureHigh));
+    $('.day3 .low h4').html(Math.round(forecast.daily.data[2].temperatureLow));
+    $('.day3 .rise h4').html(timeConverter(forecast.daily.data[2].sunriseTime));
+    $('.day3 .set h4').html(timeConverter(forecast.daily.data[2].sunsetTime));
+    $('.day3 .wind h4').html(Math.round(forecast.daily.data[2].windSpeed));
+    $('.day3 .uv h4').html(Math.round(forecast.daily.data[2].uvIndex));
+
 
 	// $('.today').html(forecast.daily.data[0].temperatureHigh);
 	
@@ -230,4 +249,16 @@ function displayIcon(n){
     		// code block
 	}
 }
+
+
+$('.home').click(function(){
+  $(this).addClass('hide');
+})
+
+$('main').click(function(){
+  $('home').removeClass('hide');
+})
+
+
+
 

@@ -1,0 +1,14 @@
+header{
+	display: grid;
+	grid-template-columns: 1;
+	grid-template-rows: 1;
+	height: 10vh;
+	align-content: center;
+	justify-content: left;
+}
+
+h1{
+	grid-column: 1;
+	grid-row: 1;
+	font-size: 4rem;
+}

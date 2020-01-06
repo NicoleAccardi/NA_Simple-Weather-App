@@ -1,0 +1,28 @@
+.home{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 2fr 2fr;
+	align-items: center;
+	justify-items: center;
+	background-color: #edded0;
+
+	h1{
+		grid-column: 1;
+		grid-row: 1;
+		text-align: center;
+	}
+
+	button{
+		grid-column: 1;
+		grid-row: 2;
+	}
+}
+
+.hide{
+	display: none;
+}
