@@ -2,11 +2,31 @@ body{
 	background-color: #edded0;
 }
 
+// h1{
+// 	font-family: Solway;
+// 	font-size: 4rem;
+// 	font-weight: 700;
+// 	color: #5b81a5;
+// }
+
 h1{
-	font-family: Solway;
-	font-size: 4rem;
-	font-weight: 700;
-	color: #5b81a5;
+	font-family: Barlow Condensed;
+	font-weight: 600;
+	font-size: 4.5rem;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #edcc9c;
+	margin: 0;
+	line-height: 4rem;
+}
+
+h5{
+	font-family: Barlow Condensed;
+	font-weight: 400;
+	font-size: 1.5rem;
+	color: #97bfe4;
+	margin: 0;
+	padding-top: 1.5rem;
 }
 
 button{
