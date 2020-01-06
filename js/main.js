@@ -100,6 +100,42 @@ function displayData(forecast){
     $('.day3 .wind h4').html(Math.round(forecast.daily.data[2].windSpeed));
     $('.day3 .uv h4').html(Math.round(forecast.daily.data[2].uvIndex));
 
+    $('.day4 h1').html(Math.round(forecast.daily.data[3].temperature));
+	$('.day4 p').html(displayIcon(forecast.daily.data[3].icon));
+	$('.day4 .high h4').html(Math.round(forecast.daily.data[3].temperatureHigh));
+    $('.day4 .low h4').html(Math.round(forecast.daily.data[3].temperatureLow));
+    $('.day4 .rise h4').html(timeConverter(forecast.daily.data[3].sunriseTime));
+    $('.day4 .set h4').html(timeConverter(forecast.daily.data[3].sunsetTime));
+    $('.day4 .wind h4').html(Math.round(forecast.daily.data[3].windSpeed));
+    $('.day4 .uv h4').html(Math.round(forecast.daily.data[3].uvIndex));
+
+    $('.day5 h1').html(Math.round(forecast.daily.data[4].temperature));
+	$('.day5 p').html(displayIcon(forecast.daily.data[4].icon));
+	$('.day5 .high h4').html(Math.round(forecast.daily.data[4].temperatureHigh));
+    $('.day5 .low h4').html(Math.round(forecast.daily.data[4].temperatureLow));
+    $('.day5 .rise h4').html(timeConverter(forecast.daily.data[4].sunriseTime));
+    $('.day5 .set h4').html(timeConverter(forecast.daily.data[4].sunsetTime));
+    $('.day5 .wind h4').html(Math.round(forecast.daily.data[4].windSpeed));
+    $('.day5 .uv h4').html(Math.round(forecast.daily.data[4].uvIndex));
+
+    $('.day6 h1').html(Math.round(forecast.daily.data[5].temperature));
+	$('.day6 p').html(displayIcon(forecast.daily.data[5].icon));
+	$('.day6 .high h4').html(Math.round(forecast.daily.data[5].temperatureHigh));
+    $('.day6 .low h4').html(Math.round(forecast.daily.data[5].temperatureLow));
+    $('.day6 .rise h4').html(timeConverter(forecast.daily.data[5].sunriseTime));
+    $('.day6 .set h4').html(timeConverter(forecast.daily.data[5].sunsetTime));
+    $('.day6 .wind h4').html(Math.round(forecast.daily.data[5].windSpeed));
+    $('.day6 .uv h4').html(Math.round(forecast.daily.data[5].uvIndex));
+
+    $('.day7 h1').html(Math.round(forecast.daily.data[6].temperature));
+	$('.day7 p').html(displayIcon(forecast.daily.data[6].icon));
+	$('.day7 .high h4').html(Math.round(forecast.daily.data[6].temperatureHigh));
+    $('.day7 .low h4').html(Math.round(forecast.daily.data[6].temperatureLow));
+    $('.day7 .rise h4').html(timeConverter(forecast.daily.data[6].sunriseTime));
+    $('.day7 .set h4').html(timeConverter(forecast.daily.data[6].sunsetTime));
+    $('.day7 .wind h4').html(Math.round(forecast.daily.data[6].windSpeed));
+    $('.day7 .uv h4').html(Math.round(forecast.daily.data[6].uvIndex));
+
 
 	// $('.today').html(forecast.daily.data[0].temperatureHigh);
 	
