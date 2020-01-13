@@ -29,7 +29,7 @@ h5{
 	padding-top: 1.5rem;
 }
 
-button{
+.home button{
 	font-family: Barlow Condensed;
 	font-weight: 400;
 	font-size: 4rem;
@@ -45,41 +45,245 @@ button{
 	padding-left: 3rem;
 }
 
-h2{
-	font-family: Barlow Condensed;
-	font-weight: 500;
-	font-size: 5rem;
-	color: #5b81a5;
-	letter-spacing: 2px;
-	text-align: center;
-	padding-bottom: 6rem;
+.day1{
+
+	h2{
+		font-family: Barlow Condensed;
+		font-weight: 500;
+		font-size: 5rem;
+		color: #5b81a5;
+		letter-spacing: 2px;
+		text-align: center;
+		padding-bottom: 6rem;
+	}
+
+	p{
+	  	color: #5b81a5;
+	  	text-align: center;
+	  	padding-bottom: 5rem;
+	}
+
+	h3{
+		font-family: Barlow Condensed;
+		font-weight: 500;
+		font-size: 2rem;
+		text-transform: uppercase;
+		color: #ffffff;
+		letter-spacing: 2px;
+		text-align: center;
+		margin: 0;
+		padding-bottom: .75rem;
+	}
+
+	h4{
+		font-family: Barlow Condensed;
+		font-weight: 400;
+		font-size: 2rem;
+		color: #ffffff;
+		text-align: center;
+		margin: 0;
+	}
 }
 
-p{
-	font-size: 6rem;
-  	color: #5b81a5;
-  	text-align: center;
-  	padding-bottom: 4rem;
+.day2{
+	h6{
+		font-family: Barlow Condensed;
+		font-weight: 500;
+		font-size: 2rem;
+		color: #ffffff;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0;
+		padding-top: 2rem;
+	}
+
+	h3{
+		font-family: Barlow Condensed;
+		font-weight: 400;
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		color: #ffffff;
+		letter-spacing: 3px;
+		text-align: center;
+		margin: 0;
+	}
+
+	h4{
+		font-family: Barlow Condensed;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color: #ffffff;
+		text-align: center;
+		margin: 0;
+	}
 }
 
-h3{
-	font-family: Barlow Condensed;
-	font-weight: 500;
-	font-size: 2rem;
-	text-transform: uppercase;
-	color: #ffffff;
-	letter-spacing: 2px;
-	text-align: center;
-	margin: 0;
-	padding-bottom: .75rem;
-	padding-top: 2rem;
+.day3{
+	h6{
+		font-family: Barlow Condensed;
+		font-weight: 500;
+		font-size: 2rem;
+		color: #ffffff;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0;
+		padding-top: 2rem;
+	}
+
+	h3{
+		font-family: Barlow Condensed;
+		font-weight: 400;
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		color: #ffffff;
+		letter-spacing: 3px;
+		text-align: center;
+		margin: 0;
+	}
+
+	h4{
+		font-family: Barlow Condensed;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color: #ffffff;
+		text-align: center;
+		margin: 0;
+	}
 }
 
-h4{
-	font-family: Barlow Condensed;
-	font-weight: 400;
-	font-size: 2rem;
-	color: #ffffff;
-	text-align: center;
-	margin: 0;
+.day4{
+	h6{
+		font-family: Barlow Condensed;
+		font-weight: 500;
+		font-size: 2rem;
+		color: #ffffff;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		text-align: center;
+		margin: 0;
+		padding-top: 2rem;
+	}
+
+	h3{
+		font-family: Barlow Condensed;
+		font-weight: 400;
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		color: #ffffff;
+		letter-spacing: 3px;
+		text-align: center;
+		margin: 0;
+	}
+
+	h4{
+		font-family: Barlow Condensed;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color: #ffffff;
+		text-align: center;
+		margin: 0;
+	}
+}
+
+.day5{
+	h6{
+		font-family: Barlow Condensed;
+		font-weight: 500;
+		font-size: 2rem;
+		color: #ffffff;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0;
+		padding-top: 2rem;
+	}
+
+	h3{
+		font-family: Barlow Condensed;
+		font-weight: 400;
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		color: #ffffff;
+		letter-spacing: 3px;
+		text-align: center;
+		margin: 0;
+	}
+
+	h4{
+		font-family: Barlow Condensed;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color: #ffffff;
+		text-align: center;
+		margin: 0;
+	}
+}
+
+.day6{
+	h6{
+		font-family: Barlow Condensed;
+		font-weight: 500;
+		font-size: 2rem;
+		color: #ffffff;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0;
+		padding-top: 2rem;
+	}
+
+	h3{
+		font-family: Barlow Condensed;
+		font-weight: 400;
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		color: #ffffff;
+		letter-spacing: 3px;
+		text-align: center;
+		margin: 0;
+	}
+
+	h4{
+		font-family: Barlow Condensed;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color: #ffffff;
+		text-align: center;
+		margin: 0;
+	}
+}
+
+.day7{
+	h6{
+		font-family: Barlow Condensed;
+		font-weight: 500;
+		font-size: 2rem;
+		color: #ffffff;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0;
+		padding-top: 2rem;
+	}
+
+	h3{
+		font-family: Barlow Condensed;
+		font-weight: 400;
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		color: #ffffff;
+		letter-spacing: 3px;
+		text-align: center;
+		margin: 0;
+	}
+
+	h4{
+		font-family: Barlow Condensed;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color: #ffffff;
+		text-align: center;
+		margin: 0;
+	}
 }

@@ -43,7 +43,6 @@ $.getJSON('https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/
   	$(this).addClass('hide');
   	$('.left-wave').addClass('wavetop');
   	$('.right-wave').addClass('wavebottom');
-
 	})
 
 	$('main').click(function(){
