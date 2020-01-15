@@ -54,13 +54,25 @@ h5{
 		color: #5b81a5;
 		letter-spacing: 2px;
 		text-align: center;
-		padding-bottom: 6rem;
+		margin: 0;
+		padding-bottom: 2rem;
+		
 	}
 
 	p{
 	  	color: #5b81a5;
 	  	text-align: center;
-	  	padding-bottom: 5rem;
+	  	margin: 0;
+	  	padding-bottom: 2rem;
+	}
+
+	h6{
+		font-family: Barlow Condensed;
+		font-weight: 500;
+		font-size: 2rem;
+		text-transform: uppercase;
+		color: #5b81a5;
+		letter-spacing: 2px;
 	}
 
 	h3{
@@ -91,10 +103,11 @@ h5{
 		font-weight: 500;
 		font-size: 2rem;
 		color: #ffffff;
+		letter-spacing: 3px;
 		text-transform: uppercase;
 		text-align: center;
 		margin: 0;
-		padding-top: 2rem;
+		padding-top: 1rem;
 	}
 
 	h3{
